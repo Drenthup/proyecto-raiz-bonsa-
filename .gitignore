@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (API keys, connection strings). Nunca al repo.
+.env
+.env.*
+!.env.example
+
+# Builds
+dist/
+
+# Sistema / logs
+.DS_Store
+*.log
+# Variables de entorno y claves privadas
+.env
+.env.*
+!.env.example
+
+# Dependencias
+node_modules/
+
+# Compilaciones
+dist/
+build/
+coverage/
+
+# Respaldos del proyecto
+respaldo*/
+backup*/
+
+# Archivos temporales
+.vite/
+*.log
+.DS_Store
+
+# Certificados y claves
+*.pem
+*.key
+*.p12
+*.pfx
